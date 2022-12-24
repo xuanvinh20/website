@@ -92,7 +92,7 @@ html{
     position: relative;
     margin-top: 50px;
     padding: 50%;
-    background: url('/assets/img/slider/10.jpg') top center / cover no-repeat;
+    background: url("./assets/img/slider/10.jpg") top center / cover no-repeat;
 }
 #slider .text-conten{
     position: absolute;
