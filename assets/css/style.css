@@ -92,7 +92,7 @@ html{
     position: relative;
     margin-top: 50px;
     padding: 50%;
-    background: url('./assets/img/slider/10.jpg') top center / cover no-repeat;
+    background: url('/assets/img/slider/10.jpg') top center / cover no-repeat;
 }
 #slider .text-conten{
     position: absolute;
@@ -140,12 +140,20 @@ html{
     margin-top: 25px;
     font-size: 17px;
     line-height: 1.6;
+    list-style-type: none;
     background-color: rgba(230, 248, 248, 0.301); 
     box-shadow: 0 0 10px rgba(24, 24, 24, 0.164);
 }
 #conten .members-list{
     margin-top: 48px;
 
+}
+#conten .icon{
+    padding: 2px;
+    border: 1px solid black;
+    margin-right: 6px;
+    background-color: rgba(237, 250, 208, 0.548);
+    color: black;
 }
 #conten .member-item{
     float: left;
