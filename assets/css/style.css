@@ -115,7 +115,10 @@ html{
     font-size: 15px;
 }
 #conten{
-
+    /* background: url('/assets/img/slider/capdoi.jpg') top center / cover no-repeat;  */
+}
+#conten .contenfist{
+    background:  url('/assets/img/slider/virtual-background-011.jpg') top center / cover no-repeat;
 }
 #conten .conten-section{
     width: 100%;
@@ -164,8 +167,8 @@ html{
     text-align: center;
 }
 #conten .member-name{
-    font-size: 17px;
-    color: rgb(81, 95, 3);
+    font-size: 20px;
+    color: rgb(236, 221, 5);
 }
     
 #conten .member-image1 {
@@ -188,7 +191,8 @@ html{
 }
 /* tour-section */
 .tour-section{
-    background-color: rgb(7, 1, 1);
+    /* background-color: rgba(17, 233, 233, 0.514); */
+    background: url('/assets/img/slider/anh-background-bau-troi-cuc-dep_122619601.jpg') top center / cover no-repeat; 
 }
 .tickets-list{
     background-color: white;
@@ -203,24 +207,65 @@ html{
     border-bottom: 1px solid rgb(236, 217, 217) ;
 }
 .tickets-list .sold-out1{
-  background-color: green ;
+  background-color: rgb(3, 179, 3) ;
   color: rgb(240, 246, 252);
   padding: 3px 4px;
   margin-left: 390px;
 }
 .tickets-list .sold-out2{
-    background-color: rgb(163, 83, 8) ;
+    background-color: rgb(196, 110, 30) ;
     color: rgb(230, 245, 175);
     padding: 3px 4px;
     margin-left: 385px;
 }
 .tickets-list .sold-out3{
-    background-color: rgb(74, 90, 238) ;
+    background-color: rgb(126, 136, 226) ;
     color: rgb(244, 245, 240);
     padding: 3px 4px;
     margin-left: 439px;
 }
-/*  */
+.places-list{
+    margin: 35px 42px;
+
+}
+.place-item{
+    float: left;
+    width: 33.333%;
+    padding: 0px 8px;
+
+}
+.place-img{
+    width: 100%;
+    height: 270.156px;
+    display: block;
+    background-color: rgb(231, 228, 228);
+}
+.place-img:hover{
+    opacity: 0.6;
+}
+
+
+.place-body{
+    background-color: rgba(255, 255, 255, 0.863);
+    padding: 16px;
+    font-size: 15px;
+     height: 150px; 
+}
+.place-heading{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.place-time{
+    margin-top: 15px;
+    color: #43613cea;
+    text-align: center;
+}
+
+.place-desc{
+    margin-top: 20px;
+    line-height: 1.6;
+}
 #footer{
 
 }
