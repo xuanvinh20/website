@@ -224,6 +224,17 @@ html{
     padding: 3px 4px;
     margin-left: 439px;
 }
+.tickets-list a{
+    background-color: rgb(16, 17, 17) ;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 4px 5px;
+    margin-left: 439px;
+}
+a:hover{
+   color: black;  
+   background-color: rgba(250, 1, 1, 0.822);
+}
 .places-list{
     margin: 35px 42px;
 
