@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 html{
+    scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
 }
 .clear{
@@ -11,6 +12,9 @@ html{
 }
 .text-white{
     color: white !important;
+}
+.text-color{
+    color: rgb(1, 141, 206) !important;
 }
 #main{
 
@@ -231,7 +235,7 @@ html{
     padding: 4px 5px;
     margin-left: 439px;
 }
-a:hover{
+.tickets-list a:hover{
    color: black;  
    background-color: rgba(250, 1, 1, 0.822);
 }
@@ -277,6 +281,88 @@ a:hover{
     margin-top: 20px;
     line-height: 1.6;
 }
-#footer{
 
+.skill-section{
+    background: url('/assets/img/slider/background-dep.jpg') top center / cover no-repeat; 
+   
+}
+
+.skill-header{
+    float: left;
+    width: 50%; 
+    margin-top: 40px;
+   
+ 
+}
+.embeder{
+
+    margin-left: 50px;
+    max-width: 90%;
+    height: 400px; 
+}
+.embeder:hover{
+    opacity: 0.8;
+}
+.skill-header .icon1{
+    padding: 0.5px;
+    border: 0.5px solid rgb(137, 189, 248);
+    margin-right: 10px;  
+    background-color: rgba(117, 205, 245, 0.548);
+    color: rgb(160, 165, 167);
+}
+.skill-1{
+    font-size: 17px;
+    color: #478cda;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 60px;
+}
+.r-1 li{
+    color: #3987d4;
+    list-style: none;
+    text-transform: capitalize;
+    width: 48%;
+    margin-bottom: 20px;
+    margin-left: 115px;
+}
+.skill-2{
+    font-size: 17px;
+    color: #3987d4;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 7px;
+    margin-left: 60px;
+}
+.r-2 li{
+    color: #4d90d3;
+    list-style: none;
+    margin-left: 115px;
+    text-transform: capitalize;
+    width: 48%;
+    margin-bottom: 20px
+}
+#footer{
+    padding: 64px 16px;
+    text-align: center;
+   background-color: rgb(247, 248, 235);
+
+}
+#footer .socials-list{
+    font-size: 24px;
+}
+#footer .socials-list a{
+    color: rgba(0, 0,0, 0.6);
+    text-decoration: none;
+    padding: 5px;
+}
+.copyright a:hover, .socials-list a:hover{
+    color: rgba(0, 0,0, 0.3);
+}
+.copyright{
+    margin-top: 15px;
+    color: rgba(0, 0,0, 0.6);
+}
+.copyright a{
+    color: rgba(0, 0,0, 0.6);
+    text-decoration: none;
 }
